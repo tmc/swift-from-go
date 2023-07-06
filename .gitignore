@@ -2,4 +2,5 @@
 /.build
 /Packages
 /*.xcodeproj
-hello
+go_swift
+swift-from-go

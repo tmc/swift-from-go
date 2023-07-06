@@ -2,7 +2,8 @@ package main
 
 /*
 #cgo CFLAGS: -I./include
-#cgo LDFLAGS: -L.build/debug/ -lgo_swift
+#cgo LDFLAGS: -L./.build/arm64-apple-macosx/debug/ -Wl,-rpath,'.build/arm64-apple-macosx/debug/' -lgo_swift
+
 #include <stdlib.h>
 #include "include/go_swift.h"
 */
